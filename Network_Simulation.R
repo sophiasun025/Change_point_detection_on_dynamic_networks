@@ -70,8 +70,6 @@ results <- list(
 
 for (j in 1:length(param$p_diag)){
     for (i in 1:100){
-      #toydata=generate_ergm_data(100,c(-2,0.2),c(-2,0.205),50,100)
-      #toydata=generate_rgg_data(0.4,0.41,50,100,FALSE,150)
       toydata=generate_toy_data(param$p_diag[j],param$p_diag2[j],param$p_off[j],param$p_off2[j],tau[j],n2[j],b1,b2)
       K1=toydata[[1]]
       K2=toydata[[2]]
