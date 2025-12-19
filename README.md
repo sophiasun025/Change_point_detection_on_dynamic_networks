@@ -1,1 +1,1 @@
-# Change_point_detection_on_dynamic_networks
+# Change-point Detection on Dynamic Networks
